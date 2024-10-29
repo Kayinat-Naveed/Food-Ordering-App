@@ -1,4 +1,4 @@
-package com.example.foodserverside;
+package com.example.orderfoodprject;
 
 import android.content.Intent;
 import android.os.Handler;
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent i = new Intent(MainActivity.this, signin.class);
+                Intent i = new Intent(MainActivity.this, second.class);
                 startActivity(i);
                 finish();
             }
